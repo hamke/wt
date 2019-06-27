@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /assets/
 Disallow: /assets-frontpage/
 Disallow: /phpmyadmin/
+Disallow: /test/
