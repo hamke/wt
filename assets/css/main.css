@@ -19,3 +19,9 @@ body {
 .ko {
   font-size: 0.85em;
 }
+#plusfriend-chat-button {
+  position: fixed;
+  z-index: 999999;
+  bottom: 10px;
+  right: 10px;
+}
