@@ -4,13 +4,13 @@ TrendTalk.terminalSettingsObject = {
   i18n: {
     welcome: '<span class="title">Welcome to <a href="./"><span class="point">WP-TALK.COM</span> - <span class="point">www.wp-talk.com</span></a></span>' +
       '\n' +
-      '-' +
+      '---' +
       '\n' +
       'Please Input or Click Commands.' +
       '\n' +
       '<span class="ko">명령어를 입력 또는 클릭해 주세요.</span>' +
       '\n' +
-      '-' +
+      '---' +
       '\n' +
       // 'Executable Commands (Menu) :' +
       // '\n' +
@@ -28,7 +28,8 @@ TrendTalk.terminalSettingsObject = {
       // '<span class="command_guide_onlytype">plogin</span>, ' +
       // '<span class="command_guide">pmenu</span>\n'
       '\n' +
-      '-\n'
+      '---' +
+      '\n'
   }
 };
 TrendTalk.makePublicPageObject = function(keyword) {
