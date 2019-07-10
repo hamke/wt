@@ -12,8 +12,8 @@ TrendTalk.terminalSettingsObject = {
       '\n' +
       '-' +
       '\n' +
-      'Executable Commands (Menu) :' +
-      '\n' +
+      // 'Executable Commands (Menu) :' +
+      // '\n' +
       '> ' +
       '<span class="command_guide point">news</span>, ' +
       '<span class="command_guide point">school</span>, ' +
