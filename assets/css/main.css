@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 2rem;
+}
+.title a {
+  text-decoration: none;
+  color: inherit;
+}
+.boring .content {
+  color: #ccc !important;
+}
+.point {
+  color: #fff;
+}
+.ko {
+  font-size: 0.85em;
+}

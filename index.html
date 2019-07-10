@@ -1,40 +1,65 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta http-equiv="refresh" content="0; URL=https://news.wp-talk.com/">
-    <!-- <meta name="robots" content="noindex, nofollow"> -->
-		<title>워드프레스톡 - WP-TALK.COM</title>
-		<meta name="description" content="워드프레스톡(WP-TALK.COM)은 최신 웹 트렌드 정보 및 웹사이트와 쇼핑몰, 블로그 제작에 필요한 다양한 꿀팁을 소개해 드립니다.">
-		<meta name="keywords" content="워드프레스, 홈페이지, 웹사이트, 쇼핑몰, 블로그, 테마, 플러그인, 웹프로그래밍, 글로벌, 마케팅, 한국, 아시아, 중국, 일본">
-		<link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico"/>
-		<meta property="og:title" content="워드프레스톡 - WP-TALK.COM"/>
-		<meta property="og:description" content="워드프레스톡(WP-TALK.COM)을 통해 웹사이트 및 쇼핑몰, 블로그 제작에 필요한 다양한 꿀팁 및 최신 웹 트렌드 정보를 소개해 드립니다."/>
-		<meta property="og:url" content="https://www.wp-talk.com/"/>
-		<meta property="og:image" content="./assets/img/wptalk-logo-800x400.png"/>
-		<meta property="og:site_name" content="워드프레스톡(WP-TALK.COM)"/>
-		<meta property="og:type" content="website"/>
-		<meta name="google-site-verification" content="XXXXXXXXXXXXXXXXXX" />
-		<meta name="naver-site-verification" content="501e470c538339e9448f0b106fa1c1ba81610976"/>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- <meta name="robots" content="noindex, nofollow"> -->
+  <title>워드프레스톡 - WP-TALK.COM</title>
+  <meta name="description" content="워드프레스톡(WP-TALK.COM)은 최신 웹 트렌드 정보 및 웹사이트와 쇼핑몰, 블로그 제작에 필요한 다양한 꿀팁을 소개해 드립니다.">
+  <meta name="keywords" content="워드프레스, 홈페이지, 웹사이트, 쇼핑몰, 블로그, 테마, 플러그인, 웹프로그래밍, 글로벌, 마케팅, 한국, 아시아, 중국, 일본">
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+  <link rel="apple-touch-icon" href="./assets/img/favicon.ico">
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <meta property="og:title" content="워드프레스톡 - WP-TALK.COM" />
+  <meta property="og:description" content="워드프레스톡(WP-TALK.COM)을 통해 웹사이트 및 쇼핑몰, 블로그 제작에 필요한 다양한 꿀팁 및 최신 웹 트렌드 정보를 소개해 드립니다." />
+  <meta property="og:url" content="https://www.wp-talk.com/" />
+  <meta property="og:image" content="./assets/img/wptalk-logo-800x400.png" />
+  <meta property="og:site_name" content="워드프레스톡(WP-TALK.COM)" />
+  <meta property="og:type" content="website" />
+  <meta name="google-site-verification" content="XXXXXXXXXXXXXXXXXX" />
+  <meta name="naver-site-verification" content="501e470c538339e9448f0b106fa1c1ba81610976" />
 
-		<!-- Global site tag (gtag.js; WP-TALK.COM) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129198477-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-		  gtag('config', 'UA-129198477-1');
-		</script>
-		<!-- Naver Analytics(WP-TALK.COM): Start -->
-		<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
-		<script type="text/javascript">
-			if(!wcs_add) var wcs_add = {};
-			wcs_add["wa"] = "134f524c88b191";
-			wcs_do();
-		</script>
-		<!-- Naver Analytics: End -->
+  <!-- Global site tag (gtag.js; WP-TALK.COM) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129198477-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-	</head>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-129198477-1');
+  </script>
+  <!-- Naver Analytics(WP-TALK.COM): Start -->
+  <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+  <script type="text/javascript">
+    if (!wcs_add) var wcs_add = {};
+    wcs_add["wa"] = "134f524c88b191";
+    wcs_do();
+  </script>
+  <!-- Naver Analytics: End -->
+
+</head>
+
+<body>
+  <div id="terminal"></div>
+  <iframe name="hidden_iframe" style="display:none;width:1px;height:1px;"></iframe>
+  <script src="./assets/js/loadJS.min.js"></script>
+  <script src="./assets/js/jquery-2.2.2.min.js"></script>
+  <script src="./assets/js/ptty.jquery.min.js"></script>
+  <script>
+    loadJS('./assets/js/common_util.js?' + Math.floor(Math.random() * 100000), function() {
+      console.log('Common Util loaded');
+      loadJS('./assets/js/config.js?' + Math.floor(Math.random() * 100000), function() {
+        console.log('Custom Util loaded');
+        loadJS('./assets/js/main.js?' + Math.floor(Math.random() * 100000), function() {
+          console.log('Main loaded');
+        });
+      });
+    });
+  </script>
+</body>
 
 </html>
+<!-- Localized -->
