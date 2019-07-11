@@ -8,7 +8,7 @@ TrendTalk.terminalSettingsObject = {
       '\n' +
       'Please Input or Click Commands.' +
       '\n' +
-      '<span class="ko">명령어를 입력 또는 클릭해 주세요.</span>' +
+      '<span class="ko">메뉴 명령어를 입력 또는 클릭해 주세요.</span>' +
       '\n' +
       '---' +
       '\n' +
