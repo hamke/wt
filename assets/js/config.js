@@ -18,6 +18,7 @@ TrendTalk.terminalSettingsObject = {
       '<span class="command_guide point">news</span>, ' +
       '<span class="command_guide point">school</span>, ' +
       '<span class="command_guide point">119</span>, ' +
+      '<span class="command_guide point">lesson</span>, ' +
       '<span class="command_guide point">kakao</span>' +
       '\n' +
       '> ' +
@@ -57,11 +58,12 @@ TrendTalk.makePublicPageObjectNew = function(keyword) {
   }
 };
 // TrendTalk.PublicCommands = ['news', 'bot', 'plogin', 'pmenu'];
-TrendTalk.PublicCommands = ['news', 'school', '119', 'kakao'];
+TrendTalk.PublicCommands = ['news', 'school', '119', 'lesson', 'kakao'];
 TrendTalk.terminalCommandsObject = [
   TrendTalk.makePublicPageObject('news'),
   TrendTalk.makePublicPageObject('school'),
   TrendTalk.makePublicPageObjectNew('119'),
+  TrendTalk.makePublicPageObjectNew('lesson'),
   TrendTalk.makePublicPageObjectNew('kakao'),
   // {
   //   name: 'plogin',
