@@ -14,13 +14,16 @@ TrendTalk.terminalSettingsObject = {
       '\n' +
       // 'Executable Commands (Menu) :' +
       // '\n' +
-      '> ' +
+      '> Service : ' +
       '<span class="command_guide point">news</span>, ' +
       '<span class="command_guide point">school</span>, ' +
       '<span class="command_guide point">119</span>, ' +
       '<span class="command_guide point">lesson</span>, ' +
       '<span class="command_guide point">hosting</span>, ' +
       '<span class="command_guide point">kakao</span>' +
+      '\n' +
+      '> App : ' +
+      '<span class="command_guide point">child-theme-builder</span> ' +
       '\n' +
       '> ' +
       '<span class="command_guide point">help</span>, ' +
@@ -58,8 +61,20 @@ TrendTalk.makePublicPageObjectNew = function(keyword) {
     help: 'Go to ' + keyword + ' page.'
   }
 };
+TrendTalk.makePublicPageObjectApp = function(keyword) {
+  return {
+    name: keyword,
+    method: function(cmd) {
+      cmd.out = 'Please wait. Opening new window...';
+      // location.href = 'https://' + 'www.wp-talk.com/' + keyword + '/';
+      window.open('https://' + 'www.wp-talk.com/app/' + keyword + '/');
+      return cmd;
+    },
+    help: 'Go to ' + keyword + ' page.'
+  }
+};
 // TrendTalk.PublicCommands = ['news', 'bot', 'plogin', 'pmenu'];
-TrendTalk.PublicCommands = ['news', 'school', '119', 'lesson', 'hosting', 'kakao'];
+TrendTalk.PublicCommands = ['news', 'school', '119', 'lesson', 'hosting', 'kakao', 'child-theme-builder'];
 TrendTalk.terminalCommandsObject = [
   TrendTalk.makePublicPageObject('news'),
   TrendTalk.makePublicPageObject('school'),
@@ -67,6 +82,7 @@ TrendTalk.terminalCommandsObject = [
   TrendTalk.makePublicPageObjectNew('lesson'),
   TrendTalk.makePublicPageObjectNew('hosting'),
   TrendTalk.makePublicPageObjectNew('kakao'),
+  TrendTalk.makePublicPageObjectApp('child-theme-builder'),
   // {
   //   name: 'plogin',
   //   method: function(cmd) {
