@@ -24,6 +24,7 @@ TrendTalk.terminalSettingsObject = {
       '\n' +
       '> App : ' +
       '<span class="command_guide point">analytics</span>, ' +
+      '<span class="command_guide point">sale</span>, ' +
       '<span class="command_guide point">child-theme-builder</span> ' +
       '\n' +
       '> Log : ' +
@@ -75,7 +76,7 @@ TrendTalk.makePublicPageObjectApp = function(keyword) {
   }
 };
 // TrendTalk.PublicCommands = ['news', 'bot', 'plogin', 'pmenu'];
-TrendTalk.PublicCommands = ['news', 'school', '119', 'lesson', 'hosting', 'kakao', 'analytics', 'child-theme-builder'];
+TrendTalk.PublicCommands = ['news', 'school', '119', 'lesson', 'hosting', 'kakao', 'analytics', 'sale', 'child-theme-builder'];
 TrendTalk.terminalCommandsObject = [
   TrendTalk.makePublicPageObject('news'),
   TrendTalk.makePublicPageObject('school'),
@@ -83,6 +84,7 @@ TrendTalk.terminalCommandsObject = [
   TrendTalk.makePublicPageObjectNew('lesson'),
   TrendTalk.makePublicPageObjectNew('hosting'),
   TrendTalk.makePublicPageObjectNew('kakao'),
+  TrendTalk.makePublicPageObjectNew('sale'),
   TrendTalk.makePublicPageObjectApp('analytics'),
   TrendTalk.makePublicPageObjectApp('child-theme-builder'),
   // {
