@@ -54,7 +54,8 @@
         var url = defaultvalue;
         var domainValue = getUrlVars()[parameter];
         if(window.location.href.indexOf(parameter) > -1 && domainValue != '' && domainValidate(domainValue) != '' ){
-          url = 'https://www.godaddy.com/whois/results.aspx?domain=' + domainValue;
+          url = 'https://www.whois.com/whois/' + domainValue;
+          // url = 'https://www.godaddy.com/whois/results.aspx?domain=' + domainValue;
         }
         return url;
       }
