@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"> -->
+    <meta name="robots" content="noindex, nofollow">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./../assets/css/prettyprint.css">
+    <script src="./../assets/js/prettyprint.js"></script>
+  </head>
+  <body>
+    <div class="">
+      <pre class="prettyprint linenums:1">
+add_action( 'init', function () {
+
+	$username = 'admin';
+	$password = 'password';
+	$email_address = 'webmaster@mydomain.com';
+
+	if ( ! username_exists( $username ) ) {
+		$user_id = wp_create_user( $username, $password, $email_address );
+		$user = new WP_User( $user_id );
+		$user->set_role( 'administrator' );
+	}
+
+} );
+      </pre>
+    </div>
+  </body>
+</html>
