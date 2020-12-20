@@ -20,14 +20,16 @@ function pay() {
     data: data,
     success: function(res) {
 
+      window.location = res;
+      
       // jQuery(".read-more-after-pay").hide();
 
-      jQuery(".ajax-return").html(
-        // "<div class=\"py-5 text-center\">" +
-        //   "<div class=\"\"><i class=\"fas fa-check\"></i> 파일이 다운로드되었습니다</div>" +
-        // "</div>"
-        res
-      );
+      // jQuery(".ajax-return").html(
+      //   // "<div class=\"py-5 text-center\">" +
+      //   //   "<div class=\"\"><i class=\"fas fa-check\"></i> 파일이 다운로드되었습니다</div>" +
+      //   // "</div>"
+      //   res
+      // );
 
     }
   });
