@@ -9,7 +9,7 @@ function pay() {
   var product_url = 'https://news.mkttalk.com/entry/%EA%B8%B0%EC%B4%88-%EB%8B%A4%EC%9D%8CDaum-%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B8%B0%EC%97%85-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EC%84%9C%EB%B9%84%EC%8A%A4-%ED%9A%8C%EC%9B%90-%EC%B6%94%EA%B0%80-%EB%B0%A9%EB%B2%95-%EB%A7%88%EC%BC%80%ED%8C%85%ED%86%A1';
   // var product_url = 'https://news.mkttalk.com/entry/' + post_slug + '/';
   var product_name = '비밀번호 입력 후 컨텐츠 더 보기';
-  var product_amount = 55000;
+  var product_amount = 290000;
   var product_buyer_name = '게스트(비회원)';
   // var product_price = document.getElementById('price');
   // var product_option = document.getElementById('selectBox');
