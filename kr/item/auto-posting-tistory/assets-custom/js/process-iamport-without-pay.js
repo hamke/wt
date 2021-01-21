@@ -14,7 +14,7 @@ function pay() {
   };
 
   jQuery.ajax({
-    url: "https://www.wp-kr.com/item/auto-posting-tistory/process-after-payment-success.php",
+    url: "https://www.wp-kr.com/item/auto-posting-tistory/without-pay/process-after-payment-success.php",
     // url: "./process-after-payment-success.php",
     type: 'POST',
     data: data,

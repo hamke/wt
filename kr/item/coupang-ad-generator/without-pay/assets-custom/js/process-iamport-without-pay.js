@@ -14,7 +14,7 @@ function pay() {
   };
 
   jQuery.ajax({
-    url: "https://www.ttmkt.com/server/wp-talk-item/rss-api-generator-without-pay/process-after-payment-success.php",
+    url: "https://www.ttmkt.com/server/wp-talk-item/rss-api-generator/without-pay/process-after-payment-success.php",
     type: 'POST',
     data: data,
     success: function(res) {

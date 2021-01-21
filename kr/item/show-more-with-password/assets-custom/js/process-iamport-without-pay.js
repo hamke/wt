@@ -14,14 +14,14 @@ function pay() {
   };
 
   jQuery.ajax({
-    url: "https://www.wp-kr.com/item/show-more-with-password/process-after-payment-success.php",
+    url: "https://www.wp-kr.com/item/show-more-with-password/without-pay/process-after-payment-success.php",
     // url: "./process-after-payment-success.php",
     type: 'POST',
     data: data,
     success: function(res) {
 
       window.location = res;
-      
+
       // jQuery(".read-more-after-pay").hide();
 
       // jQuery(".ajax-return").html(

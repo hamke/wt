@@ -1,7 +1,7 @@
 function pay() {
 
-  var post_slug = 'auto-posting-tistory';
-  var product_name = '자동 포스팅 시스템 (티스토리)';
+  var post_slug = 'show-more-with-password';
+  var product_name = '비밀번호 입력 후 컨텐츠 더 보기';
 
   var data = {
     product_url: 'https://news.mkttalk.com/entry/' + post_slug + '/',
@@ -14,7 +14,7 @@ function pay() {
   };
 
   jQuery.ajax({
-    url: "https://www.wp-kr.com/item/auto-posting-tistory/process-after-payment-success.php",
+    url: "https://www.wp-kr.com/item/show-more-with-password/without-pay/process-after-payment-success.php",
     // url: "./process-after-payment-success.php",
     type: 'POST',
     data: data,
