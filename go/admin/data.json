@@ -129,7 +129,8 @@
       "wpforms",
       "wpml",
       "yith",
-      "yoast"
+      "yoast",
+      "wp-automatic-plugin"
     ]
   }
 }
