@@ -123,12 +123,17 @@
       "visualcomposer",
       "woocommerce",
       "woocommerce-variation-swatches-and-photos",
+      "woocommerce-affiliate-program",
       "woofunnels",
       "wpbakery-page-builder",
       "wpdatatables",
       "wpforms",
       "wpml",
       "yith",
+      "yith-faq-plugin-for-wordpress",
+      "yith-woocommerce-affiliates",
+      "yith-woocommerce-points-and-rewards",
+      "yith-woocommerce-wishlist",
       "yoast",
       "wp-automatic-plugin"
     ]
