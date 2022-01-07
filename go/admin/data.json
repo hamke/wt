@@ -98,6 +98,7 @@
       "xstore"
     ],
     "plugin": [
+      "affliate-egg",
       "affliate-wp",
       "all-in-one-seo-pack",
       "automatewoo",
@@ -107,6 +108,7 @@
       "best",
       "brave-popup-builder",
       "brizy",
+      "content-egg",
       "edd",
       "elementor",
       "elementskit",
